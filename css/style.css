@@ -1,3 +1,8 @@
+body {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
 
 .home-bar {
     display: flex;
@@ -6,7 +11,8 @@
     margin-top: 20px;
     padding: 10px;
     background-color: #f4f4f4;
-    border-top: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .home-bar a {
@@ -17,4 +23,38 @@
 
 .home-bar a:hover {
     color: #007BFF;
+}
+
+.github-activity {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.github-activity h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.activity-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity-item {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.activity-item .repo-name {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.activity-item .repo-name:hover {
+    text-decoration: underline;
 }
